@@ -1,8 +1,6 @@
 const mongoose = require("mongoose");
 require("dotenv").config();
 const Movie = require("./models/movie");
-
-// connect to our database
 mongoose.connect(process.env.DATABASE_URL);
 
 async function seed() {
