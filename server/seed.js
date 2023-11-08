@@ -34,11 +34,11 @@ async function seed() {
       rottenRating: 40,
       imgUrl:
         "https://m.media-amazon.com/images/M/MV5BN2ZkNDgxMjMtZmRiYS00MzFkLTk5ZjgtZDJkZWMzYmUxYjg4XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg",
-    },
-  ]);
-
-  console.log("Movie created");
-  mongoose.disconnect();
-}
-
-seed();
+      },
+    ]);
+  
+    console.log("Movie created");
+    mongoose.disconnect();
+  }
+  
+  seed();
